@@ -12,7 +12,7 @@ function App(){
         <Header />
         
         {notes.map((notes)=>
-                        <Note 
+        <Note 
             key={notes.key}
             title={notes.title}
             note={notes.content}
